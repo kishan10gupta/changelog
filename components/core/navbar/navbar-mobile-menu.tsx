@@ -22,8 +22,8 @@ export const NavbarMobileMenu = ({ toggle }: NavbarMobileMenuProps) => (
     >
       <Flex direction="column">
         <Flex align="center" justify="space-between">
-          <Flex p={4} as="a" href="https://june.so/">
-            <NextImage height={48} width={48} src="/june-logo-symbol-only.svg" alt="june-logo" />
+          <Flex p={4} as="a" href="https://bodybrain.ai/">
+            <NextImage height={48} width={48} src="/bodybrain-logo.svg" alt="bodybrain-logo" />
           </Flex>
           <Flex p={4} onClick={toggle}>
             <Box pr={1}>
