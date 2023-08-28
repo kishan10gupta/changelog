@@ -5,7 +5,7 @@ import { Feed } from "feed";
 const MDX_DIR = "changelogs";
 
 export const generateRssFeed = async () => {
-  const siteURL = "https://changelog.june.so";
+  const siteURL = "https://changelog.bodybrain.ai";
   const date = new Date();
   const author = {
     name: "June",

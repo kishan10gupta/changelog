@@ -62,7 +62,7 @@ export const MainLayout = ({
         <meta name="description" content="Discover new updates and improvements to June." />
         <meta name="image" content="https://changelog.june.so/social.png" />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://changelog.june.so" />
+        <meta property="og:url" content="https://changelog.bodybrain.ai" />
         <meta property="og:title" content={metaTitle} />
         <meta property="og:description" content="Discover new updates and improvements to June." />
         <meta property="og:image" content="https://changelog.june.so/social.png" />
@@ -124,7 +124,7 @@ export const MainLayout = ({
                   {!isInBlogPage && (
                     <VStack alignItems="start" width="100%">
                       <Text fontSize="xl" color="gray.700" textAlign={"start"}>
-                        The latest from June
+                        The latest from BodyBrainAI
                       </Text>
                       <Heading as="h1" fontSize={["5xl"]} color="black" textAlign={"start"}>
                         Changelog

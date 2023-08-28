@@ -98,7 +98,7 @@ function Navbar(props: NavbarProps) {
         >
           <Flex direction="column">
             <Flex align="center" justify="space-between">
-              <Flex p={4} as="a" href="https://june.so/">
+              <Flex p={4} as="a" href="https://bodybrain.ai/">
                 <NextImage
                   height={48}
                   width={48}
@@ -181,7 +181,7 @@ function Navbar(props: NavbarProps) {
               setShowLogoMenu(!showLogoMenu);
             }}
           >
-            <Link href="https://june.so/" passHref prefetch={false}>
+            <Link href="https://bodybrain.ai/" passHref prefetch={false}>
               <NextResponsiveImage
                 display={["none", "none", "block"]}
                 src="/bodybrain-logo.svg"
@@ -221,7 +221,7 @@ function Navbar(props: NavbarProps) {
                           color="landing.almostBlack.500"
                           _hover={{ color: "primary", cursor: "pointer" }}
                           as="a"
-                          href="https://june.so/"
+                          href="https://bodybrain.ai/"
                         >
                           Product Analytics
                         </Text>
@@ -258,7 +258,7 @@ function Navbar(props: NavbarProps) {
                             fontWeight="medium"
                             color="landing.almostBlack.500"
                             as="a"
-                            href="https://june.so/ai"
+                            href="https://bodybrain.ai"
                             _hover={{ color: "primary", cursor: "pointer" }}
                           >
                             June AI
