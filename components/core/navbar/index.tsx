@@ -45,9 +45,9 @@ const wordmarkSvg = `<svg width="313" height="100" viewBox="0 0 313 100" fill="n
 `;
 
 const ROUTES = [
-  { href: "https://june.so/customer-stories", title: "Customers", type: "external-link" },
-  { href: "https://june.so/pricing", title: "Pricing", type: "external-link" },
-  { href: "/", title: "Changelog", type: "internal-link" },
+  { href: "https://bodybrain.ai", title: "", type: "external-link" },
+  { href: "/", title: "", type: "external-link" },
+  { href: "/", title: "", type: "internal-link" },
 ] as const;
 
 interface NavbarProps {
@@ -102,7 +102,7 @@ function Navbar(props: NavbarProps) {
                 <NextImage
                   height={48}
                   width={48}
-                  src="/june-logo-symbol-only.svg"
+                  src="/bodybrain-logo.svg"
                   alt="june-logo"
                 />
               </Flex>
@@ -184,7 +184,7 @@ function Navbar(props: NavbarProps) {
             <Link href="https://june.so/" passHref prefetch={false}>
               <NextResponsiveImage
                 display={["none", "none", "block"]}
-                src="/june-3.0-logo.svg"
+                src="/bodybrain-logo.svg"
                 alt="June's logo"
                 width={["100px"]}
                 height={["32px"]}
@@ -201,23 +201,7 @@ function Navbar(props: NavbarProps) {
             <Popover variant="responsive" trigger="hover">
               <PopoverTrigger>
                 <HStack role="group" spacing={[1]}>
-                  <Text
-                    {...desktopNavItemStyle}
-                    {...(props.mode === "dark" && {
-                      color: "white",
-                    })}
-                  >
-                    Features
-                  </Text>
-                  <ChevronDownIcon
-                    boxSize={[5]}
-                    {...(props.mode === "dark" && {
-                      color: "white",
-                    })}
-                    _groupHover={{
-                      color: "primary",
-                    }}
-                  />
+                 
                 </HStack>
               </PopoverTrigger>
               <Portal>
@@ -321,27 +305,9 @@ function Navbar(props: NavbarProps) {
               </Button>
             ) : (
               <>
-                <Button
-                  as="a"
-                  size="landingMd"
-                  variant="landingOutline"
-                  href={`${process.env.JUNE_APP_HOST}/login`}
-                  {...(props.mode === "dark" && {
-                    variant: "landingOutlineDark",
-                  })}
-                >
-                  Login
-                </Button>
+                
                 <div>
-                  <Button
-                    className="g-conversion-button"
-                    as="a"
-                    size="landingMd"
-                    variant="landingGradient"
-                    href={`${process.env.JUNE_APP_HOST}/start`}
-                  >
-                    Sign up
-                  </Button>
+                 
                   {/* Google one-tap */}
                   <div
                     id="g_id_onload"
