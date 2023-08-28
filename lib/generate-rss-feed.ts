@@ -13,8 +13,8 @@ export const generateRssFeed = async () => {
   };
 
   const feed = new Feed({
-    title: "June Changelog",
-    description: "How June gets better every week",
+    title: "BodyBrainAI Changelog",
+    description: "How BodyBrainAI gets better every week",
     id: siteURL,
     link: siteURL,
     image: `${siteURL}/favicon.ico`,

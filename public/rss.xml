@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0">
     <channel>
-        <title>June Changelog</title>
+        <title>BodyBrainAI Changelog</title>
         <link>https://changelog.bodybrain.ai</link>
-        <description>How June gets better every week</description>
-        <lastBuildDate>Mon, 28 Aug 2023 13:26:04 GMT</lastBuildDate>
+        <description>How BodyBrainAI gets better every week</description>
+        <lastBuildDate>Mon, 28 Aug 2023 19:23:02 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Feed for June changelog</generator>
         <image>
-            <title>June Changelog</title>
+            <title>BodyBrainAI Changelog</title>
             <url>https://changelog.bodybrain.ai/favicon.ico</url>
             <link>https://changelog.bodybrain.ai</link>
         </image>
